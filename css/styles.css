@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 60px auto 0 ;
+  font-family: 'Sacramento', cursive;
+  font-size: 6vw;
+  color: #5584AC;
+}
+.head2{
+  margin:15px 15px;
+  color: #5584AC;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+
+  color: #75abbc;
+  margin: 50px auto 50px;
+}
+h3{
+  color: #75abbc;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border-style: dotted none none;
+  border-color: #B7CADB;
+  border-width: 10px;
+  width: 5%;
+  margin: 100px auto;
+}
+a {
+  color: #43919B;
+}
+.top-container{
+  background-image: linear-gradient(#DFF6FF,#DFF6FF,#DFF6FF,white);
+  position:relative;
+  padding-top: 202px;
+}
+.middle-container{
+  font-size: 1vw;
+  padding-bottom: 80px;
+  background-color: white;
+}
+.bottom-container{
+  background-color: #DFF6FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 1vw;
+}
+
+.top-cloud{
+  position: absolute;
+  right:380px;
+  top: 60px;
+  width: 350px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 350px;
+  bottom: 270px;
+  width: 500px;
+}
+.mountain{
+  margin-top: 180px;
+  width: 100%;
+  position:relative;
+  top:20px;
+}
+
+.mid-sentence{
+  margin: 50px auto;
+}
+
+.span{
+  text-decoration: underline;
+}
+
+
+.profile{
+  width: 50%;
+  margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px;
+  line-height: 2;    /*расстояние между строчек*/
+  text-align: left;  /*выставляет текст сбоку по центру или справа и т.д.*/
+}
+
+.bottom-p{
+  margin-bottom: 0;
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.pfp{
+  border-radius: 50%;  /*окгруляет границу*/
+  object-fit: cover;
+  width:300px;
+  height:300px;
+  margin-top: 100px;
+}
+.pfp-mage{
+  margin:auto 30px 30px auto;  /*тут расстояние стоит между пнг и текстом*/
+  float: left;        /*ставит пнг в левую сторону, справа ставится текст*/
+  border-radius: 50%;
+  object-fit: cover;
+  width: 190px;
+  height: 190px;
+}
+.pfp-why{
+  margin:auto auto 30px;
+  float:right;
+  border-radius: 50%;
+  width:190px;
+  height: 190px;
+}
+.among-us {
+  text-decoration: line-through;
+}
+
+.btn {
+  background: #a4dced;
+  background-image: -webkit-linear-gradient(top, #a4dced, #75abbc);
+  background-image: -moz-linear-gradient(top, #a4dced, #75abbc);
+  background-image: -ms-linear-gradient(top, #a4dced, #75abbc);
+  background-image: -o-linear-gradient(top, #a4dced, #75abbc);
+  background-image: linear-gradient(to bottom, #a4dced, #75abbc);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1vw;
+  padding: 9px 12px 9px 13px;
+  text-decoration: none;
+}
+
+.footer-link{
+  margin: auto 15px;
+}
+/* text-decoration: underline; линия под текстом
+position:relative это позиция релатив от самого объекта
+position:absolute это позиция от ближайшего парента объекта
+position:fixed элемент всегда остается на одном месте на экране, т.е. елси я проскролю вниз,
+элемент проскролится тоже, он relative to <body>
+
+vw,px статичные размеры
+rem игнорирует все parent settings для фонта тоесть статичен
+em не статичен, тоесть если в боди поменять размер фнотов, то em сложится с размером в боди
+1 em = 16px
+
+font-weight позволит сделать фонт немного стройнее или толще
+
+clear: ставит текст под пнг, вместо рядом
+float* ставит пнг в левую сторону, справа ставится текст
+
+   */
